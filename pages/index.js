@@ -6,8 +6,8 @@ import { Container, Row, Col, Card, Carousel } from "react-bootstrap"
 const home = () => {
     return (
         <Layout>
-            <Container>
-                <Row className="mt-5 py-5">
+            <Container style = {{paddingTop: "4.5rem"}}>
+                <Row>
 
                     <Col className="text-center">
                         <h1 className={style.header}>Lorem Gallery</h1>
